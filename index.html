@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Image Display</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag.py Downloader</title>
 </head>
 <body>
+    <h1>Flag.py Downloader</h1>
+    <p>here your file:</p>
 
-<h1>Photo Display</h1>
+    <script>
+        function downloadFlag() {
+            // Code to initiate the download of flag.py
+            window.location.href = 'https://raw.githubusercontent.com/your-username/your-repo/main/flag.py';
+        }
+    </script>
 
-<img src="path_to_your_image.jpg" width="2135" height="2024">
-
+    <button onclick="downloadFlag()">Download flag.py</button>
 </body>
 </html>
